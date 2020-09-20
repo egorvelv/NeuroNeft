@@ -1,0 +1,23 @@
+.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 0px;
+	height: 100%;
+	width: 33%;
+}
+
+.btn {
+	width: 75%;
+	padding: 15px 17.5px;
+	background-color: var(--c-black);
+	border: 2px solid var(--c-black);
+	border-radius: 45px;
+	color: var(--c-white);
+	margin-bottom: 15px;
+}
+
+.btn:last-child {
+	margin-bottom: 0px;
+}
