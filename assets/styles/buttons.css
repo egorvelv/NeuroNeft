@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 15px 0px;
+	padding: 25px 0px;
 	height: 100%;
 	width: 33%;
 }
@@ -16,6 +16,13 @@
 	border-radius: 45px;
 	color: var(--c-white);
 	margin-bottom: 15px;
+	transform: translateY(-18%);
+
+	transition: .7s;
+}
+
+.btn:hover, .btn:active {
+	box-shadow: 10.5px 10.5px 8px 0px rgba(0, 0, 0, 0.77);
 }
 
 .btn:last-child {

@@ -17,9 +17,17 @@
 
 .price__block {
 	border: 2px solid var(--c-black);
+	background-color: var(--c-white);
 	border-radius: 45px;
 	padding: 10px 17.5px;
 	margin-bottom: 15px;
+	transition: .7s;
+
+	display: none;
+}
+
+.price__block:hover, .price__block:active {
+	box-shadow: 10.5px 10.5px 8px 0px rgba(0, 0, 0, 0.77);
 }
 
 .price__block:last-child {

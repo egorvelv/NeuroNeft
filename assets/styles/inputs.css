@@ -14,6 +14,12 @@
 	border-radius: 45px;
 	border-color: var(--c-black);
 	color: var(--c-black);
+	
+	transition: .7s;
+}
+
+.input__date:hover, .input__date:active {
+	box-shadow: 10.5px 10.5px 8px 0px rgba(0, 0, 0, 0.77);
 }
 
 .input__date:last-child {
