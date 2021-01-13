@@ -1,3 +1,3 @@
-# [NeuroNeft project](https://egorvelv.github.io/Vector-Test/)
+# [NeuroNeft project](https://egorvelv.github.io/NeuroNeft/)
 
 This is project connected with the competition
